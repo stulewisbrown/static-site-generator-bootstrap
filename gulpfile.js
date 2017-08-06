@@ -156,6 +156,8 @@ gulp.task('sass', function () {
 // Uglifies and concat all JS files into one
 gulp.task('scripts', function() {
     var scripts = [
+        basePaths.dev + '_js/jquery.js', // Must be loaded first
+
         basePaths.dev + '_js/tether.js', // Must be loaded before BS4
 
         // Start - All BS4 stuff
