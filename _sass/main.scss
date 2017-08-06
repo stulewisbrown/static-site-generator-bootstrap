@@ -1,0 +1,25 @@
+ @import "bs-variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+ @import "bootstrap4/bootstrap";// <--------- Loads Bootstrap
+
+
+//import theme components
+@import "components/hs-navbar";
+@import "components/carousel";
+@import "components/hs-hero";
+@import "components/hs-card";
+@import "components/hs-flag";
+@import "components/hs-media";
+@import "components/hs-button";
+@import "components/hs-contact";
+@import "components/hs-sidebar";
+@import "components/hs-homebox";
+@import "components/hs-map";
+@import "components/hs-forms";
+@import "components/hs-footer";
+
+
+.hs-container-full {
+	padding-right:0;
+	padding-left:0;
+
+}

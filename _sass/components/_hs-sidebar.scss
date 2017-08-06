@@ -1,0 +1,16 @@
+.hs-sidebar {
+	align-items: initial;
+}
+.hs-sidebar__thumb {
+	max-width:40px;
+	margin-right: $spacer;
+}
+
+.hs-sidebar__item:hover {
+	background: $brand-primary;
+    color: white;
+}
+
+.list-group-item.active {
+	border: 1px solid rgba(0,0,0,.125);
+}

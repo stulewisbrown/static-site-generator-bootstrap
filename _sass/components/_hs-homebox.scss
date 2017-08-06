@@ -1,0 +1,28 @@
+.hs-homebox {
+	padding:$spacer-lg;
+	text-shadow: 3px 3px 10px rgba(0,0,0,.8);
+	height:200px;
+
+	.btn {
+		text-shadow: none;
+	}
+}
+
+.hs-homebox--left {
+	background-image: url(/assets/Flightpark-from-air.jpg);
+
+}
+
+.hs-homebox--right {
+background-image: url(/assets/pebbles_4-wallpaper-960x600.jpg);
+}
+
+@include media-breakpoint-up(xs) {  }
+@include media-breakpoint-up(sm) { 
+
+ }
+@include media-breakpoint-up(md) { 
+
+}
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }

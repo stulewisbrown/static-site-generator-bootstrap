@@ -1,0 +1,40 @@
+{
+    "name": "Static-Site-Build-Template-Project",
+    "version": "1.0.0",
+    "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Stuart Brown",
+    "license": "MIT",
+    "devDependencies": {
+        "bootstrap": "^4.0.0-alpha.6",
+        "browser-sync": "^1.3.7",
+        "gulp": "^3.8.8",
+        "jshint": "^2.9.4",
+        "gulp-autoprefixer": "1.0.0",
+        "gulp-clean": "^0.3.2",
+        "gulp-concat": "^2.6.0",
+        "gulp-cssmin": "^0.1.7",
+        "gulp-jshint": "^2.0.1",
+        "gulp-sourcemaps": "2.4.1",
+        "gulp-notify": "^2.2.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^2.1.0",
+        "gulp-clean-css": "^3.0.4",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^2.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stub2001/Static-Site-Build-Template-Project.git"
+    },
+    "keywords": [
+        "jekyll",
+        "gulp",
+        "sass",
+        "browsersync"
+    ],
+    "homepage": "https://github.com/stub2001/Static-Site-Build-Template-Project/"
+}

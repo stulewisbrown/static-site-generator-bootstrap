@@ -1,0 +1,107 @@
+.hs-navbar-toggler--green {
+    background: $brand-primary;
+}
+
+.hs-navbar-logo {
+	height:50px;
+	float:left;
+}
+
+.hs-navbar {
+	background:none;
+}
+
+.navbar-nav, .dropdown-menu {
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+
+
+// @include media-breakpoint-up(xs) {
+//     .navbar-light .navbar-nav .nav-link {
+//         color: $white;
+//         padding-left: $spacer;
+//         &:hover {
+//             color: rgba($white, .7);
+//         }
+//     }
+//     .hs-navbar-nav {
+//         background-color: $brand-primary;
+//         @include border-radius();
+//     }
+//     .dropdown-menu {
+//         background: lighten($brand-primary,15%);
+//     }
+//     .dropdown-menu .menu-item a.nav-link {
+//         padding-left: $spacer-lg;
+//     }
+//     .navbar-light .navbar-nav .active>.nav-link {
+//         color:$white;
+//     }
+// }
+
+// @include media-breakpoint-down(xs) {
+//     .navbar {
+//         text-align: center;
+//     }
+//     .navbar-light .navbar-nav .nav-link {
+//         padding-left: 0;
+//     }
+// }
+
+// @include media-breakpoint-up(sm) {
+//     .navbar-light .navbar-nav .nav-link {
+//         .nav-link {
+//             padding-left: $spacer;
+//         }
+//     }
+// }
+
+// @include media-breakpoint-up(lg) {
+//     .hs-navbar-nav {
+//         background-color: $white;
+//     }
+//     .navbar-light .navbar-nav .nav-link {
+//         color: $brand-primary;
+//         &:hover {
+//             color: rgba($brand-primary, .7);
+//         }
+//     }
+//     .dropdown-menu {
+//         background: $white;
+//     }
+//     .dropdown:hover>.dropdown-menu {
+//         display: block;
+//     }
+//     .navbar-light .navbar-nav .nav-link {
+//         padding-left: $spacer-sm;
+//     }
+//     .dropdown-menu .menu-item a.nav-link {
+//         padding: $spacer-sm $spacer;
+//     }
+//     .dropdown-menu .menu-item a.nav-link:hover {
+//         background: $brand-primary;
+//         color: $white;
+//     }
+//     .navbar-light .navbar-nav .active>.nav-link {
+//         color:$brand-primary;
+//     }
+// }
+
+
+//NAVBAR FOOTER STYLES
+
+.hs-navbar-footer__menu, .hs-footer-wrapper {
+
+    }
+
+@include media-breakpoint-up(xs) {
+.hs-navbar-footer {
+display:none;
+}
+}
+@include media-breakpoint-up(lg) {
+.hs-navbar-footer {
+display:block;
+}
+}

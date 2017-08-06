@@ -1,0 +1,19 @@
+// This simply serves as an example of how we can use bootstrap native mixins to achieve
+// semantically informative layout with our HTML. Eliminate all the divs full of container,
+// rows and col classes
+// @include media-breakpoint-up(md) {
+//     .social-media {
+//         @include make-container();
+//         @include make-container-max-widths();
+//     }
+//     .social-media__row {
+//         @include make-row();
+//     }
+//     .social-media__col {
+//         @include make-col(6);
+//     }
+
+//     .social-media-item {
+//     margin:$spacer;
+//     }
+// }

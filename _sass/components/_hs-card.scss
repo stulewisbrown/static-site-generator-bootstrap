@@ -1,0 +1,12 @@
+.hs-card--text h3 {
+	color:$brand-primary;
+}
+@include media-breakpoint-up(md) {
+	.hs-card--text {
+		width:70%;
+	}
+}
+
+.hs-card--post {
+	width:auto;
+}

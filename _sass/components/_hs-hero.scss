@@ -1,0 +1,43 @@
+
+.hs-hero {
+	background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.8);
+    margin-bottom: 0;
+    min-height:500px;
+
+    .btn {
+        text-shadow: none;
+    }
+}
+
+.hs-hero__lead {
+	color:white;
+}
+
+
+.hs-hero__heading {
+	color:white;
+}
+
+.hs-hero--breaker {
+    background-position: center right;
+    text-align: left;
+}
+
+.hs-hero--info {
+    background-image:url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+
+     color:$white;
+}
+
+.hs-hero-wrap {
+     background:rgba(255,255,255,0.5);
+}
+
+.hs-hero--para {
+
+
+    background-attachment: fixed;
+}
